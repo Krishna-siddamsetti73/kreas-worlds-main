@@ -1,6 +1,6 @@
 # KRIS — Multi-Page Award Site
 
-Transform the current single-page KREAS scroll into a 6-page **KRIS** site where each page is its own creative world with distinct interaction patterns.
+Transform the current single-page kriyas scroll into a 6-page **KRIS** site where each page is its own creative world with distinct interaction patterns.
 
 ## Pages & Routes
 
@@ -15,7 +15,7 @@ Transform the current single-page KREAS scroll into a 6-page **KRIS** site where
 
 ## Shared shell
 
-- Rebrand `KREAS` → `KRIS` in `Nav.tsx`, root metadata, footer.
+- Rebrand `kriyas` → `KRIS` in `Nav.tsx`, root metadata, footer.
 - `Nav.tsx` becomes route-aware using `<Link>` with `activeProps`; nav items: Home / Services / Work / About / Playground / Contact.
 - Keep custom `Cursor` globally in `__root.tsx` (move from index route so it persists across pages).
 - Add a `PageTransition` wrapper (framer-motion `AnimatePresence` keyed on pathname) doing fade + slight zoom + blur — applied inside `__root.tsx` around `<Outlet />`.
@@ -55,7 +55,7 @@ Each section uses different color tokens to avoid repetition.
 
 1. **CinematicSubtitles** — text appears line by line like film subtitles, centered, with timing.
 2. **TimelinePath** — animated SVG path drawn on scroll, milestones pop along it.
-3. **TeamExperimental** — 3 cards each with a *different* hover behavior (one flips, one distorts, one reveals via mask).
+3. **TeamExperimental** — 3 cards each with a _different_ hover behavior (one flips, one distorts, one reveals via mask).
 4. **ValuesAccordion** — click tiles expand with layout animation showing concept detail.
 
 ## Page 5 — Playground (`/playground`) ⭐

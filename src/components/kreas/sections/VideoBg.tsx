@@ -28,7 +28,7 @@ export function VideoBg() {
           <h2 className="font-display text-6xl font-black leading-[0.85] tracking-tight md:text-[12rem]">
             BUILD <br />
             <span className="font-serif italic">with</span> <br />
-            KREAS.
+            kriyas.
           </h2>
         </div>
       </div>

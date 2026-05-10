@@ -26,7 +26,10 @@ export function Hero() {
       <div className="relative z-10 flex min-h-screen flex-col px-6 pt-32 md:px-12">
         <div className="grid grid-cols-12 gap-4 text-xs uppercase tracking-[0.3em] text-white/50">
           <div className="col-span-3">[01] Studio</div>
-          <div className="col-span-6 text-balance">A multi-disciplinary creative studio crafting brands, products & growth systems for ambitious founders.</div>
+          <div className="col-span-6 text-balance">
+            A multi-disciplinary creative studio crafting brands, products & growth systems for
+            ambitious founders.
+          </div>
           <div className="col-span-3 text-right font-mono">{time} GMT</div>
         </div>
 
@@ -35,13 +38,28 @@ export function Hero() {
             style={{ x: tx, y: ty }}
             className="font-display text-[clamp(4rem,16vw,18rem)] font-black leading-[0.82] tracking-[-0.04em]"
           >
-            <motion.span initial={{ y: "120%" }} animate={{ y: 0 }} transition={{ duration: 1, ease: [0.7, 0, 0.2, 1] }} className="block">
-              KREAS BUILDS
+            <motion.span
+              initial={{ y: "120%" }}
+              animate={{ y: 0 }}
+              transition={{ duration: 1, ease: [0.7, 0, 0.2, 1] }}
+              className="block"
+            >
+              kriyas BUILDS
             </motion.span>
-            <motion.span initial={{ y: "120%" }} animate={{ y: 0 }} transition={{ duration: 1, delay: 0.15, ease: [0.7, 0, 0.2, 1] }} className="block">
+            <motion.span
+              initial={{ y: "120%" }}
+              animate={{ y: 0 }}
+              transition={{ duration: 1, delay: 0.15, ease: [0.7, 0, 0.2, 1] }}
+              className="block"
+            >
               WHAT <span className="font-serif italic text-[var(--neon)]">others</span>
             </motion.span>
-            <motion.span initial={{ y: "120%" }} animate={{ y: 0 }} transition={{ duration: 1, delay: 0.3, ease: [0.7, 0, 0.2, 1] }} className="block">
+            <motion.span
+              initial={{ y: "120%" }}
+              animate={{ y: 0 }}
+              transition={{ duration: 1, delay: 0.3, ease: [0.7, 0, 0.2, 1] }}
+              className="block"
+            >
               CAN'T.
             </motion.span>
           </motion.h1>
